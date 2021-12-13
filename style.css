@@ -154,7 +154,7 @@ nav{
     left: 0px;
     top: 125px; 
     background-size: cover;
-    background: url('Img/angle.png');
+    background: url('img/angle.png');
     overflow-y: hidden;
     overflow-x: hidden;
 }
