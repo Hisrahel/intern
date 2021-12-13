@@ -52,9 +52,7 @@
 }
 
   /* End of Preloader */
-body{
-    overflow-x: hidden;
-}
+
 .sect{
     background: #00BCF5;
 }
@@ -72,69 +70,141 @@ body{
     font-size: 16px;
 }
 .enve{
-    padding-left: 200px;
     margin-top: 20px;
 }
+.navbar-nav{
+    padding-left: 2rem;
+}
  @media(max-width: 576px){
-    body{
-        overflow: hidden !important;
-    }
-    .final{
-        width: 100px;
-        padding-right: 20px;
-    }
-    .navbar-nav{
-        background: #002147;
-        padding: 1rem;
-    }
-    .cate{
-        padding-left: 100px !important;
-    }
-    .section1{
-        width: 375px !important;
-        background-size: cover !important;
-        height: 250px !important;
-        left: 0px;
-        top: 100px !important; 
-    }
-    .vector{
-        left: 130px !important;
-        top: 130px !important;
-     }
-     .master{
+    .toper{
         font-size: 25px !important;
     }
-    .skills{
-        font-size: 40px !important;
-        line-height: 50px !important;
-        letter-spacing: 0em;
-    } 
-     .btn-sign-up{
-        width: 80px !important;
-        height: 10px !important;
-        font-size: 15px !important;
-    } 
-    .button{
-        width: 100px;
-    }
     .top{
-        padding-top: 40px !important;
-        padding-left: 20px !important;
-        font-size: 30px !important;
+        font-size: 20px !important;
+        padding-top: 50px !important;
+        line-height: 20px !important;
+        padding-left: 80px !important;
     }
     .feat{
-        padding-top: 120px !important;
+        padding-top: 150px !important;
+    }
+    .section1{
+        height: 50vh !important; 
+        background: url('img/angle.png')center !important;
+        background-size: cover!important;
+
+    }
+    .vector{
+       padding-top: 40% !important;
+       padding-left: 45% !important;
+    }
+    .vector img{
+        width: 30% !important;
+    }
+    .block{
+        width: 95% !important;
+        height: auto !important;
+        left: 10px !important;
+    }
+    .span{
+        width: 40% !important;
+        left: 0px !important;
+        padding-top: 25px !important;
+        font-size: 15px !important;
+        line-height: 25px !important;
+
+    }
+    #demo{
+        text-align: left;
+        font-size: 18px !important;
+        margin-top: 35px;
+        color: white;
+        font-weight: 600;
+        padding-left: 6px !important;
+    }
+    .grad{
+        display: none;
+    }
+    .come{
+        padding-top: 0.2rem !important;
+        text-align: center !important;
+    }
+    .master{
+        text-align: center !important;
+    }
+    .skills{
+        text-align: center !important;
+    }
+    .take{ 
+        margin-top: -160px !important;
+    }
+    .autom{
+        display: none !important;
+    }
+    .head{
+        padding-right: 30px !important;
+        padding-left: 10px !important;
+    }
+    .bloc{
+        width: 80% !important;
+        left: 0 !important;
     }
 
-
 } 
+@media(max-width: 768px){
+    .section1{
+        height: 50vh !important; 
+        background: url('img/angle.png')center !important;
+        background-size: cover!important;
+
+    }
+    .vector{
+       padding-top: 20% !important;
+       padding-left: 45% !important;
+    }
+    .block{
+        width: 95% !important;
+        height: auto !important;
+        left: 10px !important;
+    }
+    .span{
+        width: 40% !important;
+        left: 0px !important;
+        padding-top: 25px !important;
+        font-size: 15px !important;
+        line-height: 25px !important;
+
+    }
+    #demo{
+        text-align: left;
+        font-size: 18px !important;
+        margin-top: 35px;
+        color: white;
+        font-weight: 600;
+        padding-left: 6px !important;
+    }
+    .auto{
+        width: 80%;
+        height: 80px;
+        left: 45px;
+        top: 23rem !important;
+    }
+    .take{
+        padding-top: 120px !important;
+    }
+    .dear{
+        padding-top: 100px !important;
+    }
+}
+
 nav{
     background: #002147;
-    height: 10vh;
+   
 }
 .nav-link{
     color: white !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 1rem;
 }
 .cate{
     padding-left: 250px;
@@ -149,22 +219,19 @@ nav{
     border-radius: 10px;
 }
 .section1{
-    width: 1350px;
-    height: 600px;
-    left: 0px;
-    top: 125px; 
+    width: 100%;
+    height: 80vh; 
     background-size: cover;
     background: url('img/angle.png');
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
 .vector{
-   position: absolute;
-   left: 650px;
-   top: 400px;
+   padding-top: 15%;
+   padding-left: 50%;
 }
+
 .section2{
     background: #F0F4F9;
+    position: relative;
 }
 .master{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -178,7 +245,7 @@ nav{
 }
 .skills{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 60px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: 80px;
@@ -189,75 +256,37 @@ nav{
 .come{
     padding-top: 4rem;
 }
-.btn-sign-up{
-    width: 150px;
-    height: 60px;
-    padding-bottom: 60px;
-    background: #00BCF5;
-    border-radius: 5px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 47px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #2A4566;  
-}
 .block{
     position: absolute;
-    width: 1000px;
-    height: 130px;
-    left: 190px;
-    top: 1350px;
+    width: 70%;
+    bottom: -70px;
     background: #002147;
     border-radius: 10px;
+    z-index: 4;
 }
 .grad{
-    position: absolute;
+    /* position: absolute; */
+    width: 20%;
     padding-left: 3rem;
     padding-top: 7px;
+    z-index: 5;
+    margin-right: 30px;
 }
 .basic{
     color: #00BCF5;
 }
 .span{
-    position: absolute;
-    width: 478px;
+    width: 40%;
     height: 98px;
-    left: 250px;
+    left: 200px;
     padding-top: 25px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 32px;
     line-height: 45px;
     color: #FFFFFF;
 }
-/* .timer{
-    position: absolute;
-    width: 87px;
-    height: 90px;
-    left: 700px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 72px;
-    line-height: 90px;
-    color: #FFFFFF;
-}
-.time{
-    position: absolute;
-    width: 7px;
-    height: 30px;
-    left: 900px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 30px;
-    color: #FFFFFF;
-} */
 .top{
     position: absolute;
     padding-top: 150px;
@@ -280,10 +309,8 @@ nav{
     padding-top: 300px;
 }
 .research{
-    width: 405.47px;
     font-weight: bold;
     font-size: 20px;
-    line-height: 28px;
     color: #2A4565;
 }
 .vect{
@@ -313,62 +340,42 @@ nav{
 }
 .auto{
     position: absolute;
-    width: 340px;
+    width: 60%;
     height: 80px;
     left: 170px;
     top: 470px;
     background: white;
     border-radius: 5px; 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 .autom{
-    position: absolute;
-    width: 500px;
+    width: 100%;
     height: 90px;
-    left: 50px;
-    top: 470px;
+    margin-top: 7.4rem;
     background: #F0F4F9;
     border-radius: 10px; 
+    padding: 10px 20px 10px 10px;
+    display: flex;
 }
 .body{
-    position: absolut;
     font-weight: bold;
     font-size: 20px;
-    line-height: 33px;
     text-align: center;
     color: #000000;
-    top: 5px;
 }
 .cardo{
-    position: absolute;
-    width: 129px;
-    height: 20px;
-    left: 103px;
-    bottom: 0px;
     font-size: 15px;
-    line-height: 35px;
-    /* identical to box height */
     text-align: center;
     color: #5A5A5A;
 }
 .and{
-    position: absolute;
-    width: 484px;
-    height: 20px;
-    left: 150px;
-    top: 20px;
     font-weight: bold;
     font-size: 15px;
-    line-height: 20px;
-    /* identical to box height, or 83% */
+    line-height: 20px; 
     color: #2A4565;
 }
 .the{
-    position: absolute;
-    width: 223px;
-    height: 20px;
-    left: 115px;
-    top: 45px;
     font-weight: normal;
     font-size: 12px;
     line-height: 20px;
@@ -416,13 +423,13 @@ color: #00BCF5;
     color: #000000;
 }
 .pic{
-    background-image: url('img/Rectangle 18.png');
-    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),url('img/Rectangle 18.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .learner{
-    padding-top: 250px;
+    padding-top: 90px;
+    padding-bottom: 50px;
 }
 .btn-started{
     color: white;
@@ -436,17 +443,21 @@ color: #00BCF5;
 }
 .section4{
     background: #012447;
-    padding-bottom: 200px;
     padding-top: 100px;
-    margin-bottom: 50px;
+}
+.tt{
+    position: relative;
 }
 .bloc{
     position: absolute;
-    width: 900px;
+    width: 90%;
     height: 100px;
-    left: 190px;
-    top: 6857px;
+    left: 130px;
+    bottom: 0px;
     background: #00BCF5;
+}
+.tg{
+    padding-bottom: 200px;
 }
 .head {
     margin-top: 40px;
@@ -461,11 +472,56 @@ color: #00BCF5;
     font-size: 16px;
 }
 #demo{
+    width: 40%;
     text-align: center;
     font-size: 45px;
     margin-top: 29px;
     color: white;
     font-weight: 600;
-    padding-left: 670px;
+    /* padding-left: 670px; */
 }
+ @media(max-width: 1024px){
+    .section1{
+        height: 50vh !important; 
+        background: url('img/angle.png')center !important;
+        background-size: cover!important;
 
+    }
+    .vector{
+       padding-top: 40% !important;
+       padding-left: 45% !important;
+    }
+     .nav-link{
+        padding-right: 5px !important;
+    }
+    .block{
+        width: 95%;
+    }
+    .skills{
+        line-height: 32px;
+        font-size: 25px;
+    }
+    .top{
+        font-size: 30px;
+        padding-top: 80px !important;
+    }
+    .feat{
+        padding-top: 200px;
+    }
+    .rect{
+        padding-left: 0 !important;
+    }
+    .auto{
+        width: 80%;
+        height: 80px;
+        left: 45px;
+        top: 470px;
+        background: white;
+        border-radius: 5px; 
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .bloc{
+        left: 30px !important;
+    }
+    
+} 
